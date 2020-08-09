@@ -8,6 +8,6 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/")
 	public String helloWorld() {
-		return "{\"message\":\"Hello World Java v1\"}";
+		return "{\"message\":\"Hello World Java v2,this version was edited by Mr Eghosa Agunu.Good luck on java hello world\"}";
 	}
 }
