@@ -26,7 +26,7 @@ stages:
         containerRegistry: 'docker-public-hub-registory-connection'
         repository: 'agunuworld/hello-world-java'
         command: 'buildAndPush'
-        Dockerfile: '$(Build.SourcesDirectory)/projects/hello-world/hello-world-python/Dockerfile'
+        Dockerfile: '$(Build.SourcesDirectory)/projects/hello-world/hello-world-java/Dockerfile'
         tags: '$(tag)'
     - task: CopyFiles@2
       inputs:
