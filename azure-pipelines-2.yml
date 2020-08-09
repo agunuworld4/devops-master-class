@@ -57,5 +57,5 @@ stages:
         action: 'deploy'
         kubernetesServiceConnection: 'kubernetes-service-connection-on-azurexyz'
         namespace: 'default'
-        manifests: '$(System.ArtifactsDirectory)/projects/hello-world/deployment.azure.yaml'
+        manifests: '$(System.ArtifactsDirectory)/projects/hello-world/deployment.azurejava.yaml'
         containers: 'agunuworld/hello-world-java:$(tag)'
